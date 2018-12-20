@@ -1,0 +1,136 @@
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+
+footer {
+  background-color: #ea325a;
+}
+
+main {
+  width: 71%;
+  background-color: #d9f0f3;
+  float: right;
+  padding: 20px;
+}
+
+aside {
+  background-color: #fff;
+  color: #ea325a;
+  padding: 20px;
+  width: 22%;
+  float: left;
+  text-align: center;
+}
+
+.info {
+  margin-top: 40px;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+aside ul li  {
+  margin: 30px;
+}
+
+aside ul li a {
+  font-size: 24px;
+  color: #003035;
+  cursor: pointer;
+}
+
+.profile-picture {
+  width: 150px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+h1, h2, aside ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+main section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Text shadow as stretch  */
+.name {
+ font-size: 30px;
+ font-weight: 700;
+ color: #ea325a;
+ text-shadow: 6px 6px 0px #CDCDCD;
+}
+
+main h2 {
+  color: #003035;
+}
+
+p, ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+#social-media img {
+  width: 35px;
+  padding: 1.5%;
+}
+
+/* Stretch - Call to Action Button */
+.action-button {
+  background-color: #FBE821;
+  color: #6ECACF;
+  padding: 10px 20px;
+  margin-top: 1.5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 16px;
+}
+
+.container {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* Stretch - Hover States */
+aside ul li a:hover {
+  color: #6ECACF;
+}
+
+.action-button:hover {
+  color: #003035;
+  background-color: #fbe821;
+}
+
+/* Stretch - Simple CSS Transition */
+a {
+  transition: .3s;
+}
+
+/* Stretch - Removing Underlines from Anchor Tags (links)) */
+a {
+  text-decoration: none;
+}
+
+/* Stretch - highlight span */
+.highlight {
+  color: #ea325a;
+}
+
+/* Strech - make it responsive */
+@media  all and (max-width:850px) {
+  main, aside {
+    width: 100%;
+  }
+  section {
+    padding-right: 20px;
+    padding-left: 20px
+  }
+}
